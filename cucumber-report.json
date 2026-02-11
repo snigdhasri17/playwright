@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "home_search;validate-google-search-page-working",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "validate google search page working",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 383349536
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "browser is open",
+            "match": {
+              "location": "tests/steps/Basic.step.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 593155080
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "user is on google search page",
+            "match": {
+              "location": "tests/steps/Basic.step.js:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287696504
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "user enters atest in search page",
+            "match": {
+              "location": "tests/steps/Basic.step.js:38"
+            },
+            "result": {
+              "status": "pending",
+              "duration": 235955
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "user is navigated to search results",
+            "match": {
+              "location": "tests/steps/Basic.step.js:46"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "home_search",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Home_Search",
+    "tags": [],
+    "uri": "tests/Features/Basic.feature"
+  }
+]
